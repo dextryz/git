@@ -1,0 +1,30 @@
+[user]
+    name = dextryz
+    email = rvs.hello@pm.me
+
+[core]
+    editor = nvim
+
+[init]
+    defaultBranch = main
+
+[pull]
+    rebase = false
+
+[push]
+    default = current
+    autoSetupRemote = true
+
+[color]
+    ui = auto
+
+[alias]
+    st = status -s
+    cc = checkout
+    cb = checkout -b
+    cm = commit -m
+    br = branch
+    bd = branch -d
+	df = diff
+	rc = rm -r --cached .
+    ll = log --oneline --graph --decorate --all
