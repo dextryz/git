@@ -27,4 +27,4 @@
     bd = branch -d
 	df = diff
 	rc = rm -r --cached .
-    ll = log --oneline --graph --decorate --all
+    ll = log --oneline --graph --decorate --all -n 50
